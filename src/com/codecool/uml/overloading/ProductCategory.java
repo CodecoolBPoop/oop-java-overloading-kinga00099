@@ -15,7 +15,7 @@ class ProductCategory {
     }
 
     public int getId() {
-        return 0;
+        return id;
     }
 
     public void setName(String name) {

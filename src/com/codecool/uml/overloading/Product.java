@@ -19,11 +19,11 @@ class Product {
     }
 
     public int getId() {
-        return 0;
+        return id;
     }
 
     public String getName() {
-        return null;
+        return name;
     }
 
     public void setName(String name) {
@@ -31,15 +31,15 @@ class Product {
     }
 
     public float getDefaultPrice() {
-        return 0;
+        return defaultPrice;
     }
 
     public void setDefaultPrice(float defaultPrice) {
         this.defaultPrice = defaultPrice;
     }
 
-    public float getDefaultCurrency() {
-        return 0;
+    public Currency getDefaultCurrency(){
+        return defaultCurrency;
     }
 
     public void setDefaultCurrency(Currency defaultCurrency) {
@@ -47,7 +47,7 @@ class Product {
     }
 
     public ProductCategory getProductCategory() {
-        return null;
+        return productCategory;
     }
 
     public void setProductCategory(ProductCategory productCategory) {
@@ -55,7 +55,7 @@ class Product {
     }
 
     public Supplier getSupplier() {
-        return null;
+        return supplier;
     }
 
     public void setSupplier(Supplier supplier) {
